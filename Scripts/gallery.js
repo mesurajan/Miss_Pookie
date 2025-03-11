@@ -1,45 +1,45 @@
         // Define card images and messages
         const cardData = [
             { 
-                frontImage: "images/pics01.jpg", 
+                frontImage: "Images/Pics01.jpg", 
                 type: "image"
             },
             { 
-                frontImage: "images/pics02.jpg", 
+                frontImage: "Images/Pics02.jpg", 
                 type: "message",
                 message: "You make my heart smile every day! ❤️"
             },
             { 
-                frontImage: "images/pics03.jpg", 
+                frontImage: "Images/Pics03.jpg", 
                 type: "image" 
             },
             { 
-                frontImage: "images/pics04.jpg", 
+                frontImage: "Images/Pics04.jpg", 
                 type: "gif",
                 gifUrl: "/api/placeholder/400/320",
                 caption: "You're my favorite person!"
             },
             { 
-                frontImage: "images/pics05.jpg", 
+                frontImage: "Images/Pics05.jpg", 
                 type: "image" 
             },
             { 
-                frontImage: "images/pics06.jpg", 
+                frontImage: "Images/Pics06.jpg", 
                 type: "message",
                 message: "I love the way your eyes crinkle when you laugh! 😊"
             },
             { 
-                frontImage: "images/pics07.jpg", 
+                frontImage: "Images/Pics07.jpg", 
                 type: "image" 
             },
             { 
-                frontImage: "images/pics08.jpg", 
+                frontImage: "Images/Pics08.jpg", 
                 type: "gif",
                 gifUrl: "/api/placeholder/400/320",
                 caption: "You're the cutest!"
             },
             { 
-                frontImage: "images/pics09.jpg", 
+                frontImage: "Images/Pics09.jpg", 
                 type: "message",
                 message: "Every moment with you is a gift I cherish! 💝"
             }
