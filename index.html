@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Something Special For You</title>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/tailwindcss/2.2.19/tailwind.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.11.4/gsap.min.js"></script>
+ <link rel="stylesheet" href="Css/index.css">
+ <script src="Scripts/index.js"></script>
+</head>
+<body>
+    <div class="cursor"></div>
+    <div class="overlay" id="transition-overlay"></div>
+    <div class="cursor" id="cursor"></div>
+    <div class="parallax-bg">
+        <div class="parallax-item parallax-1"></div>
+        <div class="parallax-item parallax-2"></div>
+        <div class="parallax-item parallax-3"></div>
+    </div>
+    <div class="container" id="main-container">
+        <h1 class="welcome-text">Hey Pookie, I made something special for you! 💖 <br>Get ready for a little surprise!</h1>
+        <button class="btn-special" id="continue-btn">Let's Go!</button>
+    </div>
+    <div class="music-control">
+        <button class="music-btn" id="music-toggle">
+            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-volume-2"><polygon points="11 5 6 9 2 9 2 15 6 15 11 19 11 5"></polygon><path d="M19.07 4.93a10 10 0 0 1 0 14.14M15.54 8.46a5 5 0 0 1 0 7.07"></path></svg>
+        </button>
+    </div>
+    <audio id="background-music" autoplay loop">
+        <source src="Music/Sujan Chapagain & Bidhya Tiwari - Teenpatey (Dekhera Timilai) [lyrics].mp3" type="audio/mpeg">
+    </audio>
+    
+
+
+    
+</body>
+</html>
